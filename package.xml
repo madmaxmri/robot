@@ -9,6 +9,21 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- Python -->
+  <exec_depend>ament_index_python</exec_depend>
+
+  <!-- URDF -->
+  <exec_depend>xacro</exec_depend>
+
+  <!-- Robot -->
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <!-- Gazebo -->
+  <exec_depend>ros_gz_sim</exec_depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
